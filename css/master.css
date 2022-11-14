@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.border {
+  border: 1px blue solid;
+}
+
+.menu-bar {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0,0,0);
+  color: white;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-bar .title {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.menu-bar .title .pic img {
+  height: 36px;
+  border-radius: 18px;
+  margin-right: 10px;
+}
+
+.menu-bar .menu {
+  display: flex;
+}
+
+.menu-item {
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.menu-item .link {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-item .link:hover {
+  background: white;
+  color: black;
+}
+
+.content {
+  height: 100%;
+  margin-bottom: -30px;
+}
+
+.content .spacer {
+  height: 76px;
+}
+
+.content .heading {
+  padding: 20px;
+}
+
+.content .heading .row .page-title {
+  font-size: 30px;
+}
+
+.content .heading .links {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.content .heading .links i {
+  font-size: 30px;
+  color: black;
+}
+
+.content .heading .links .link {
+  padding-right: 10px;
+}
+
+.content .heading .links .link a {
+  text-decoration: none;
+}
+
+.footer {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  font-size: 10px;
+}
+
+.footer-content {
+  margin: auto;
+}
