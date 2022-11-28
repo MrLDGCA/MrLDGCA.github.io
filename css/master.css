@@ -81,8 +81,9 @@ html, body {
   padding: 5px 20px;
 }
 
-.content .heading .row .page-title {
+.content .heading .title .page-title {
   font-size: 30px;
+  font-weight: bold;
 }
 
 .content .heading .links {
@@ -97,10 +98,24 @@ html, body {
 
 .content .heading .links .link {
   padding-right: 10px;
+  margin: auto;
 }
 
 .content .heading .links .link a {
   text-decoration: none;
+}
+
+.content .row {
+  padding: 5px 20px;
+  text-align: justify;
+}
+
+.content .row .subtitle {
+  font-weight: bold;
+}
+
+.content .row ul {
+  margin: 0;
 }
 
 .footer {
