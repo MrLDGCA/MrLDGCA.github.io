@@ -39,16 +39,18 @@ html, body {
 
 .menu-bar .menu {
   display: flex;
+  padding: 0px 10px;
 }
 
 .menu-item {
   margin: auto;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 .menu-item .link {
   border: 1px solid;
-  padding: 10px;
+  padding: 5px;
+  font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
