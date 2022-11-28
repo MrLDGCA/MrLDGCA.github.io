@@ -130,3 +130,9 @@ html, body {
 .footer-content {
   margin: auto;
 }
+
+.footer-content a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
