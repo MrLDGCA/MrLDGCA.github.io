@@ -1,19 +1,18 @@
 <div id='header'></div>
 <script>
-fetch('inc/header.html')
-  .then(response=> response.text())
-  .then(text=> document.getElementById('header').innerHTML = text);
+  fetch('inc/header.html')
+    .then(response=> response.text())
+    .then(text=> document.getElementById('header').innerHTML = text);
 
-document.title = "MrLDGCA Portfolio | Projects";
+  document.title = "MrLDGCA Portfolio | Projects";
 </script>
 <div class="content">
   <div class="spacer"></div>
   <div class="heading">
     <div class="row">
       <div class="page-title">Projects</div>
-      <div class="tagline">Let's talk Cyber Security</div>
+      <div class="tagline">A showcase of personal projects</div>
     </div>
-    <hr>
   </div>
 </div>
 <div id='footer'></div>

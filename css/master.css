@@ -59,6 +59,11 @@ html, body {
   color: black;
 }
 
+.menu-item .selected {
+  background: white;
+  color: black;
+}
+
 .content {
   height: 100%;
   margin-bottom: -30px;
@@ -69,7 +74,9 @@ html, body {
 }
 
 .content .heading {
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
 }
 
 .content .heading .row .page-title {
