@@ -4,17 +4,21 @@
     .then(response=> response.text())
     .then(text=> document.getElementById('header').innerHTML = text);
 
-  document.title = "MrLDGCA Portfolio | Projects";
+  document.title = "MrLDGCA Portfolio | Blog";
 </script>
 <div class="content">
   <div class="spacer"></div>
   <div class="heading">
     <div class="title">
-      <div class="page-title">Projects</div>
-      <div class="tagline">A showcase of personal projects</div>
+      <div class="page-title">Blog</div>
+      <div class="tagline">Let's talk Cyber Security</div>
     </div>
   </div>
-  <div class="row"><hr></div>
+  <div class="item-link">
+    <div class="subtitle"><a href="blogs/20221128.html" target="_blank">Creating a personal website on GitHub</a></div>
+    <div class="description">First blog</div>
+    <div class="pubDate">2022-11-28</div>
+  </div>
 </div>
 <div id='footer'></div>
 <script>

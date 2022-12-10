@@ -114,7 +114,24 @@ html, body {
   font-weight: bold;
 }
 
-.content .row ul {
+.content .item-link {
+  padding: 5px 20px;
+  text-align: justify;
+  margin: 10px;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+
+.content .item-link .subtitle {
+  font-weight: bold;
+}
+
+.content .item-link:hover {
+  background: rgba(0, 255, 0, 0.4);
+  transition: 0.2s;
+}
+
+.content .item-link ul {
   margin: 0;
 }
 
