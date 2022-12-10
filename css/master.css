@@ -120,9 +120,18 @@ html, body {
   margin: 10px;
   border: solid 1px gray;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .content .item-link .subtitle {
+  font-weight: bold;
+}
+
+.content .item-link .pubDate {
+  background: gray;
+  color: white;
+  width: fit-content;
+  font-size: 12px;
   font-weight: bold;
 }
 
