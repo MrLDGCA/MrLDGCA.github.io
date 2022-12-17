@@ -29,6 +29,8 @@ html, body {
   display: flex;
   font-size: 30px;
   padding: 20px;
+  margin: auto;
+  margin-left: 0px;
 }
 
 .menu-bar .title .pic img {
@@ -39,7 +41,7 @@ html, body {
 
 .menu-bar .menu {
   display: flex;
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 .menu-item {
@@ -67,12 +69,36 @@ html, body {
 }
 
 .content {
-  height: 100%;
+  min-height: 100%;
   margin-bottom: -30px;
 }
 
-.content .spacer {
+.content .top-spacer {
   height: 76px;
+}
+
+.content .bottom-spacer {
+  height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-bar .menu {
+    display: block;
+    text-align: right;
+  }
+
+  .menu-bar .title {
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .menu-item {
+    padding: 10px 5px;
+  }
+
+  .content .top-spacer {
+    height: 120px;
+  }
 }
 
 .content .heading {
