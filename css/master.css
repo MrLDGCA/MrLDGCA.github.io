@@ -4,6 +4,10 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+  margin: 0px;
+}
+
 .border {
   border: 1px blue solid;
 }
@@ -81,26 +85,6 @@ html, body {
   height: 50px;
 }
 
-@media screen and (max-width: 500px) {
-  .menu-bar .menu {
-    display: block;
-    text-align: right;
-  }
-
-  .menu-bar .title {
-    padding: 10px;
-    font-size: 25px;
-  }
-
-  .menu-item {
-    padding: 10px 5px;
-  }
-
-  .content .top-spacer {
-    height: 120px;
-  }
-}
-
 .content .heading {
   display: flex;
   justify-content: space-between;
@@ -123,8 +107,7 @@ html, body {
 }
 
 .content .heading .links .link {
-  padding-right: 10px;
-  margin: auto;
+  padding: 0px 5px;
 }
 
 .content .heading .links .link a {
@@ -168,6 +151,31 @@ html, body {
 
 .content .item-link ul {
   margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-bar .menu {
+    display: block;
+    text-align: right;
+  }
+
+  .menu-bar .title {
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .menu-item {
+    padding: 10px 5px;
+  }
+
+  .content .top-spacer {
+    height: 120px;
+  }
+
+  .content .heading {
+    display: block;
+  }
+
 }
 
 .footer {
