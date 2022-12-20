@@ -123,6 +123,11 @@ hr {
   font-weight: bold;
 }
 
+.content .item-list {
+  margin: auto;
+  width: fit-content;
+}
+
 .content .item-link {
   padding: 5px 20px;
   text-align: justify;
@@ -147,6 +152,7 @@ hr {
   width: fit-content;
   font-size: 12px;
   font-weight: bold;
+  padding: 2px;
 }
 
 .content .item-link:hover {
